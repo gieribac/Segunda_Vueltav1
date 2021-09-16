@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+    margin: auto;
+    width: 100%;
+    
+}
+.main {
+    max-width: 75%;
+    min-width: 450px;
+    float: left;
+    margin: auto;
+    padding: 0;
+    border: 0;
+}
+/*centrar contenido*/
+.container {
+    width: 60%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    letter-spacing: 1px;
+    font-size: 2rem;
+    margin-left: -20px;
+}
+.img-logo{
+    width: 80px;
+    height: 80px;
+}
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a{
+    padding: 0.5rem 0.5rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.nav ul li a:hover {
+    background: rgb(75, 77, 76);
+
+}
+#frame-header {
+    width: 100% !important;
+    height: auto;
+    border-style: none;
+
+}
+.container-main {
+    width: 100%;
+    margin:  4% 3% 1% 5%;
+    border: 0;
+    padding: 0;
+    
+
+}
+.organigrama {
+    width: 100%;
+    height: auto;
+}
+.parrafo-index {
+    margin-top: 20px;
+}
+.parrafo-fin {
+    margin-bottom: 30px;
+}
+.article {
+    border: 5%;
+    width: 95%;
+    
+}
+.aside {
+    display: inline;
+    width: 25%;
+    height: auto;
+    margin: auto;
+    padding: 2.5%;
+    border: 0;
+    align-content: center;
+}
+.aside-img{
+    display: block;
+    border-radius: 5px;
+    width: auto;
+    height: 300px;
+    margin: auto;
+    border: 2px solid #ccc;
+    align-content: center;
+}
+
+/* quienes somos */
+.somos {
+    margin: 4% 3% 1% 5%;
+}
+
+.mvo {
+    margin-top: 20px;
+}
+
+.parrafos {
+    margin: 10px 40px;
+}
+.contacto {
+    background-color: rgb(168, 170, 168);
+}
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.title-contacto {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding:  7px;
+    box-sizing: border-box;
+    border: none;
+}
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.boton {
+    width: 100%;
+    margin-bottom: 20px;
+    padding:  7px;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(31, 36, 78);
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+.boton:hover {
+    cursor: pointer;
+    background: rgb(0, 93, 168);
+}
+
+
+
+
+@media (max-width: 600px) {
+    .logo{
+        display: none;
+    }
+}
